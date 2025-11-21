@@ -1,0 +1,32 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor noise
+.vscode/
+.idea/
+.DS_Store
+
+# Testing/coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Training and run artifacts
+logs/
+checkpoints/
+*.tfrecord
+*.ckpt*
+*.h5
+*.keras
+.ipynb_checkpoints/
+
+# Local environment variables
+.env
+.env.*
